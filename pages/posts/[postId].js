@@ -8,6 +8,7 @@ const Post = ({ postData }) => {
 
 	return (
 		<>
+			<h1 className="text-red-500">Test</h1>
 			<p>Post: {postId}</p>
 			<p>{postData.md}</p>
 			<p>{postData.metadata.title}</p>
